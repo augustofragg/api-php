@@ -1,6 +1,8 @@
 <?php
 require('../config.php');
 
-$array['pong'] = true;
+$array['result'] = [
+    "pong" => true
+];
 
 require('../return.php');

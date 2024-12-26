@@ -30,7 +30,7 @@ if($method === 'get') {
     }
 }
 else {
-    $array['error'] = "Metodo invalido";
+    $array['error'] = "Metodo nao permitido apenas (GET)";
 }
 
 require('../return.php');
